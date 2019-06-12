@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <TextView
+
+        android:id="@+id/hrs"
+        android:textSize="30dp"
+        android:text="10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:id="@+id/dd"
+        android:textSize="30dp"
+        android:text=":"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:id="@+id/min"
+        android:textSize="30dp"
+        android:text="30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/img"
+        android:layout_width="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="200dp"
+        android:layout_height="500dp"
+        android:background="@color/colorAccent"
+        android:text="Hello World!"
+        android:src="@mipmap/ic_launcher"
+        android:orientation="vertical"
+        android:layout_marginStart="50dp" />
+
+    <LinearLayout
+        android:id="@+id/img2"
+        android:layout_width="50dp"
+       android:layout_marginLeft="20dp"
+        android:layout_marginTop="200dp"
+        android:background="@color/colorPrimary"
+        android:layout_height="500dp"
+        android:text="Hello World!"
+        android:src="@mipmap/ic_launcher"
+        android:orientation="vertical"
+        android:layout_marginStart="100dp" />
+
+</LinearLayout>
